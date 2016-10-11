@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>vs_fb_page_plugin</id>
+    <name>Facebook Lite</name>
+    <version>1.0</version>
+    <priority>42949294</priority>
+    <position>0</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="page">
+                        <type>text</type>
+                        <name>Page</name>
+                    </item>
+                    <item id="width">
+                        <type>text</type>
+                        <name>Width In Pixel</name>
+                        <default_value>320</default_value>
+                    </item>
+                    <item id="showfaces">
+                        <type>checkbox</type>
+                        <name>Showfaces</name>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="dataheader">
+                        <type>checkbox</type>
+                        <name>Header</name>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="streamdata">
+                        <type>checkbox</type>
+                        <name>Get Feeds</name>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="databorder">
+                        <type>checkbox</type>
+                        <name>Border</name>
+                        <default_value>Y</default_value>
+                    </item>
+                </items> 
+            </section>
+        </sections> 
+    </settings>                  
+ </addon>
